@@ -2,7 +2,7 @@
   "name": "ABNF-highlight",
   "version": "0.1.0",
   "description": "Syntax highlighting for ABNF file",
-  "repository": "https://github.com/changnet/language-protobuf",
+  "repository": "https://github.com/GYGG/ABNF-Syntax-highlighting",
   "license": "MIT",
   "engines": {
     "atom": "*",
