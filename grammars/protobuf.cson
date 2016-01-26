@@ -1,0 +1,17 @@
+'scopeName': 'source.protobuf'
+'name': 'protobuf'
+'fileTypes': ['abnf']
+'patterns': [
+  {
+    'match': '\\{\\+[a-zA-Z0-9\u4e00-\u9fa5]*\\}'
+    'name': 'storage.type.custom.protobuf'
+  }
+  {
+    'match': '\\$[_a-zA-Z0-9\u4e00-\u9fa5]*'
+    'name': 'constant.numeric.protobuf'
+  }
+  {
+    'match': '//[^\\n]*'
+    'name': 'comment'
+  }
+]
